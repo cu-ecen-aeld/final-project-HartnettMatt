@@ -84,20 +84,21 @@ https://github.com/HartnettMatt/AdvancedEmbeddedSoftware/tree/main/final-project
 The goal is to automate cleaning of a whiteboard using an embedded device with motor control and edge sensing. Here's a basic diagram of how it's put together:
 
 ```
-[ Battery ]
-     |
-[ Pi Zero W ]
-     |
-[ Motor Driver ] ---> [ Left Motor ] -----                        |                 |--> Robot Frame with Cloth
-                     [ Distance Sensors ] |
-                        |                 |--> Magnetic Wheels
-                     [ Right Motor ]------/
+                        [ Battery ]
+                             |
+                        [ Pi Zero W ]
+                            |
+[ Right Motor ] <--- [ Motor Driver ] ---> [ Left Motor ]
+      |                      |                   |
+[Magnetic Wheel]     [ Distance Sensors ] [Magnetic Wheel]
+       |                     |                   |
+       ---------> Robot Frame with Cloth <--------
 ```
 
 ---
 
 ## Blockers
-No blockers yet. If sensor mounting turns out to be tricky, I may 3D print brackets.
+No blockers yet.
 
 ---
 
