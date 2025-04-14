@@ -1,0 +1,5 @@
+menu "Whiteboard Wiper External Packages"
+
+source "$BR2_EXTERNAL_PROJECT_BASE_PATH/package/gpio_test/Config.in"
+
+endmenu

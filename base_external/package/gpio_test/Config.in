@@ -1,0 +1,6 @@
+
+config BR2_PACKAGE_GPIO_TEST
+	bool "gpio_test"
+	depends on BR2_PACKAGE_LIBGPIOD2
+	help
+	  A simple GPIO test module

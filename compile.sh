@@ -18,7 +18,7 @@ if [ ! -f "$DEFCONFIG_PATH" ]; then
     exit 1
 fi
 
-make BR2_DEFCONFIG="$DEFCONFIG_PATH" defconfig
+make defconfig BR2_EXTERNAL=${EXTERNAL_REL_BUILDROOT} BR2_DEFCONFIG="$DEFCONFIG_PATH"
 make
 
 #if [ ! -e buildroot/.config ]
