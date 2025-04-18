@@ -1,0 +1,6 @@
+config BR2_PACKAGE_HCSR04_TEST
+	bool "hcsr04_test"
+	depends on BR2_PACKAGE_LIBGPIOD2
+	depends on BR2_PACKAGE_LIBDRIVER_HCSR04
+	help
+	  A simple hcsr04 test module

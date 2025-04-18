@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LIBDRIVER_HCSR04
+    bool "libdriver_hcsr04"
+    help
+      Full‑function MIT‑licensed driver from libdriver.com

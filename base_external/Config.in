@@ -1,5 +1,7 @@
 menu "Whiteboard Wiper External Packages"
 
 source "$BR2_EXTERNAL_PROJECT_BASE_PATH/package/gpio_test/Config.in"
+source "$BR2_EXTERNAL_PROJECT_BASE_PATH/package/libdriver_hcsr04/Config.in"
+source "$BR2_EXTERNAL_PROJECT_BASE_PATH/package/hcsr04_test/Config.in"
 
 endmenu
