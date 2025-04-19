@@ -5,7 +5,7 @@
 #
 ##############################################################
 
-HCSR04_TEST_VERSION = '33322c1501f7534364722b237eafe45738670add'
+HCSR04_TEST_VERSION = '06ab0415ccbc55e4c19fcb6eab1d513e21e4425e'
 HCSR04_TEST_SITE = 'git@github.com:HartnettMatt/AdvancedEmbeddedSoftware.git'
 HCSR04_TEST_SITE_METHOD = git
 HCSR04_TEST_GIT_SUBMODULES = YES

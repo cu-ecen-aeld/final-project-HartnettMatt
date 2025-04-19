@@ -1,0 +1,6 @@
+config BR2_PACKAGE_WHITEBOARD_WIPER
+	bool "whiteboard_wiper"
+	depends on BR2_PACKAGE_LIBGPIOD2
+	depends on BR2_PACKAGE_LIBDRIVER_HCSR04
+	help
+        A whiteboard wiping, ass kicking, name taking, robot
